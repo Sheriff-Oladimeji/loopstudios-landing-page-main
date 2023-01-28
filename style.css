@@ -37,6 +37,7 @@ nav .container {
 .menu {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .menu li {
   margin-left: 30px;
