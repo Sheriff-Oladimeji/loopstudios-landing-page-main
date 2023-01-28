@@ -179,7 +179,9 @@ margin: 40px 0;
   
 }
 
-
+footer{
+  background-color: var(--Black);
+}
 
 /* Mobile styling */
 @media (max-width: 700px) {
