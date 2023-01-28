@@ -86,7 +86,7 @@ nav .container {
   }
   .menu {
     display: none;
-    margin-top: 50px;
+    margin-top: 40%;
   }
 
   .container {
@@ -110,7 +110,7 @@ nav .container {
 
   .menu li {
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .menu li a {
     text-transform: uppercase;
