@@ -190,6 +190,7 @@ footer .container{
   align-items: center;
 }
 
+
 /* Mobile styling */
 @media (max-width: 700px) {
   header {
