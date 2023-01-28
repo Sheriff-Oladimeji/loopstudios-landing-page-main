@@ -24,11 +24,12 @@ header {
   height: 70vh;
   color: var(--White);
 }
-nav {
+nav .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 40px 0;
+  flex-wrap: wrap;
 }
 .logo img {
   width: 60%;
@@ -57,14 +58,14 @@ nav {
   line-height: 0.9;
   text-transform: uppercase;
 }
-.hamburger{
+.hamburger {
   display: none;
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
 }
-#close-icon{
+#close-icon {
   display: none;
 }
 @media (max-width: 760px) {
@@ -73,46 +74,46 @@ nav {
     height: 100vh;
     color: var(--White);
   }
-  nav{
-    display: block;
+  nav {
+    width: 100%;
+    height: auto;
+    transition: height 0.7s;
   }
-  .logo{
-    float: left;
+  .showNav {
+    background-color: black;
+    z-index: 100;
+    height: 100vh;
   }
+  .menu {
+    display: none;
+    margin-top: 50px;
+  }
+
   .container {
     width: 90%;
     margin: 0 auto;
   }
   .box {
-    margin-top: 50%;
     border: 1px solid var(--White);
     width: 100%;
     padding: 20px;
+    margin: 30% auto;
   }
- .box h1{
-  font-size: 37px;
- }
- .hamburger{
-  display: block;
-  float: right;
-}
-.menu{
-  display: block;
-  margin-top: 70px;
-  z-index: 100;
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.7s;
-}
-.show{
-  transform: translateY(0);
-}
-.menu li {
-margin-left: 0;
-margin-bottom: 20px;
-}
-.menu li a{
-  text-transform: uppercase;
-  font-size: 18px;
-}
+  .box h1 {
+    font-size: 37px;
+  }
+  .hamburger {
+    display: block;
+    float: right;
+    margin: 10px;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .menu li a {
+    text-transform: uppercase;
+    font-size: 18px;
+  }
 }
