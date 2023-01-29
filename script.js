@@ -22,3 +22,9 @@ function mobileNav(){
 items.forEach( item =>{
   item.addEventListener('click', mobileNav)
 })
+function updateDate(){
+let date = new Date()
+let year = date.getFullYear()
+document.getElementById('date').innerText = year
+}
+updateDate()
