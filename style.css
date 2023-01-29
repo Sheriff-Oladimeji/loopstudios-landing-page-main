@@ -257,9 +257,9 @@ footer .container{
     margin: 0 auto;
   }
   .box {
-    border: 1px solid var(--White);
+    border: 2px solid var(--White);
     width: 100%;
-    padding: 20px;
+    padding: 30px 20px;
     margin: 30% auto;
   }
   .box h1 {
