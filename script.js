@@ -3,6 +3,7 @@ const closeIcon = document.querySelector('#close-icon')
 const hamburger = document.querySelector('.hamburger')
 const menu = document.querySelector('.menu')
 const nav = document.querySelector('nav')
+const items = document.querySelectorAll('.item')
 hamburger.addEventListener('click', mobileNav)
 function mobileNav(){
   if(nav.classList.contains('showNav')){
@@ -18,3 +19,6 @@ function mobileNav(){
   menuIcon.style.display = "none"
   }
 }
+items.forEach( item =>{
+  item.addEventListener('click', mobileNav)
+})
