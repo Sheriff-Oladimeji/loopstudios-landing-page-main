@@ -352,13 +352,14 @@ footer .container{
 
 }
 .link li{
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .link a{
   font-size: 18px;
 }
 .socials{
   display: block;
+  margin-top: 50px;
 }
 .grid-container h3{
   font-size: 35px;
@@ -367,6 +368,10 @@ footer .container{
   font-size: 22px;
   font-weight: 700;
   color: var(--VeryDarkGray);
+}
+.grid-container> div{
+  height: 30vh;
+  
 }
 
 }
