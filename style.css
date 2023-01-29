@@ -62,7 +62,7 @@ h1, h2, h3, button{
 .box {
   margin-top: 50px;
   border: 1px solid var(--White);
-  width: 55%;
+  width: 50%;
   min-height: 30vh;
   padding: 30px;
 }
@@ -224,7 +224,10 @@ footer .container{
 }
 .attribution a{
   color: white;
+  font-weight: 700;
 }
+
+
 
 /* Mobile styling */
 @media (max-width: 700px) {
@@ -260,7 +263,8 @@ footer .container{
     margin: 30% auto;
   }
   .box h1 {
-    font-size: 37px;
+    font-size: 50px;
+    font-weight: 300;
   }
   .hamburger {
     display: block;
@@ -345,7 +349,13 @@ footer .container{
 .link{
   display: block;
   
- 
+
+}
+.link li{
+  margin-bottom: 30px;
+}
+.link a{
+  font-size: 18px;
 }
 .socials{
   display: block;
@@ -353,4 +363,10 @@ footer .container{
 .grid-container h3{
   font-size: 35px;
 }
+.foot-2 p{
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--VeryDarkGray);
+}
+
 }
