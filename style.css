@@ -183,6 +183,7 @@ margin: 40px 0;
 footer{
   background-color: var(--Black);
   color: var(--White);
+  padding: 40px 0;
 }
 footer .container{
   display: flex;
@@ -194,6 +195,16 @@ footer .container{
   align-items: center;
  
 }
+.socials{
+  display: flex;
+  justify-content: flex-end;
+}
+.socials img{
+  margin-right: 15px;
+}
+.link, .foot-2 p{
+  margin: 15px 0;
+}
 .link li {
   margin-right: 30px;
 }
@@ -201,16 +212,23 @@ footer .container{
   text-decoration: none;
   color: var(--White);
 }
-.footer-img, .socials{
-  margin: 30px 0;
+
+
+.attribution{
+  text-align: center;
+  margin-top: 30px;
+}
+.attribution a{
+  color: white;
 }
 
 /* Mobile styling */
 @media (max-width: 700px) {
   header {
-    background: url(/images/mobile/image-hero.jpg) no-repeat center center/cover;
+    background: url(/images/mobile/image-hero.jpg) no-repeat center fixed/cover;
     height: 100vh;
     color: var(--White);
+    width: 100%;
   }
   nav{
     width: 100%;
@@ -267,9 +285,65 @@ footer .container{
     width: 90%;
   }
   .main-bg{
-    background: url(/images/mobile/image-interactive.jpg) no-repeat center center/contain;
+    background: url(/images/mobile/image-interactive.jpg) no-repeat center fixed/contain;
     height: 300px;
     margin-bottom: 20px;
   }
+  .grid-1{
+    position: relative;
+    background: url(/images/mobile/image-deep-earth.jpg) no-repeat center center/cover;
+    
+  }
+  .grid-2{
+    position: relative;
+    background: url(/images/mobile/image-night-arcade.jpg) no-repeat center center/cover;
+    
+  }.grid-3{
+    position: relative;
+    background: url(/images/mobile/image-soccer-team.jpg) no-repeat center center/cover;
+    
+  }
+  .grid-4{
+    position: relative;
+    background: url(/images/mobile/image-grid.jpg) no-repeat center center/cover;
+    
+  }
+  .grid-5{
+    position: relative;
+    background: url(/images/mobile/image-from-above.jpg) no-repeat center center/cover;
+    
+  }.grid-6{
+    position: relative;
+    background: url(/images/mobile/image-pocket-borealis.jpg) no-repeat center center/cover;
+    
+  }
+  .grid-7{
+    position: relative;
+    background: url(/images/mobile/image-curiosity.jpg) no-repeat center center/cover;
+    
+  }
+  .grid-8{
+    position: relative;
+    background: url(/images/mobile/image-fisheye.jpg) no-repeat center center/cover;
+    
+  }
+  .grid-container{
+  
+    grid-template-columns: repeat(1, 1fr);
+   row-gap: 20px;
+    margin: 40px 0;
  
+}
+footer .container{
+ display: block;
+ text-align: center;
+}
+.link{
+  display: block;
+  
+ 
+}
+.socials{
+  display: block;
+}
 }
