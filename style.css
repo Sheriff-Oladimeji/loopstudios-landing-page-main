@@ -124,6 +124,10 @@ main .container{
   border: 1px solid var(--Black);
   width: 120px;
 }
+.flex-container button:hover{
+  background-color: var(--Black);
+  color: var(--White);
+}
 .grid-container{
 display: grid;
 grid-template-columns: repeat(4, 1fr);
@@ -144,6 +148,13 @@ margin: 40px 0;
   left: 10%;
   bottom: 10%;
   color: var(--White);
+}
+a
+li{
+transition: border 0.7;
+}
+li:hover{
+  border-bottom: 1px solid var(--White);
 }
 .grid-1{
   position: relative;
