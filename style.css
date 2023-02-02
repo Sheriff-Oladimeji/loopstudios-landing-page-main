@@ -150,10 +150,10 @@ margin: 40px 0;
   color: var(--White);
 }
 a
-li{
-transition: border 0.7;
+a{
+transition: all 0.7;
 }
-li:hover{
+a:hover{
   border-bottom: 1px solid var(--White);
 }
 .grid-1{
@@ -292,11 +292,14 @@ footer .container{
     text-transform: uppercase;
     font-size: 18px;
   }
+ 
   .main-content{
     position:static;
     padding: 0;
     z-index: 1;
     text-align: center;
+    width: 100%;
+
     
   }
   main .container{
@@ -385,5 +388,6 @@ footer .container{
   height: 30vh;
   
 }
+
 
 }
