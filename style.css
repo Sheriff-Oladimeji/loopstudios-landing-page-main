@@ -118,13 +118,17 @@ main .container{
   align-items: center;
   justify-content: space-between;
 }
-.flex-container button{
+.button{
   padding: 8px;
   background: transparent;
   border: 1px solid var(--Black);
   width: 120px;
+  font-weight: bold;
 }
-.flex-container button:hover{
+.mobile{
+  display: none;
+}
+.button:hover{
   background-color: var(--Black);
   color: var(--White);
 }
@@ -388,6 +392,12 @@ footer .container{
   height: 30vh;
   
 }
-
+.button{
+  display: none;
+}
+.mobile{
+  display: block;
+  margin: 0 auto 30px;
+}
 
 }
