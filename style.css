@@ -247,7 +247,7 @@ footer .container{
 }
 
 /* Mobile styling */
-@media (max-width: 700px) {
+@media (max-width: 960px) {
   header {
     background: url(/images/mobile/image-hero.jpg) no-repeat center fixed/cover;
     height: 100vh;
