@@ -96,7 +96,7 @@ main .container{
 }
 .main-content{
   position: absolute;
-  background-color: transparent;
+  background-color: white;
   z-index: 100;
   bottom: 0;
   left: 40%;
