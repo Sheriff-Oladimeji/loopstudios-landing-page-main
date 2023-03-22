@@ -4,16 +4,10 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -21,8 +15,26 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 desktop
 
 
-![](./desktop-screenshot.png)
+![](./images/desktop.png)
 
 mobile
 
-![](./mobile-screenshot.png)
+![](./images/mobile.png)
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Desktop-first workflow
+
+## Author
+
+- Website - [Github](https://github.com/Sheriff-Oladimeji)
+- Frontend Mentor - [@OladimejiSheriff](https://www.frontendmentor.io/profile/OladimejiSheriff)
+- Twitter - [@sheriffWebDev](https://www.twitter.com/sheriffWebDev)
+
+### Links
+
+- Solution URL: [View solution](https://github.com/Sheriff-Oladimeji/loopstudios-landing-page-main)
+- Live Site URL: [Vist site](https://loopstudios-landing-page-main-lyart.vercel.app/)
